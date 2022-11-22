@@ -367,6 +367,28 @@ img {
 .item-footer:not(:last-child) {
   margin-bottom: 9px;
 }
+.footer-social {
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.tittle-add {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.icons-list-team.borders {
+  fill: #ffffff;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.icons-list-team.borders:hover {
+  background-color: #2196f3;
+}
 /* ---------Body Portfolio---------- */
 .portfolio-btn {
   margin-bottom: 50px;
