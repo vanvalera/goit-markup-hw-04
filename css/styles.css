@@ -124,7 +124,13 @@ img {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: #2f303a;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/BackgroundFon.jpg');
+  background-repeat: no-repeat;
 }
 .hero > .conteiner {
   text-align: center;
@@ -161,14 +167,7 @@ img {
   background: var(--accent-body-color);
   color: var(--primary-body-color);
 }
-.overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url('../images/BackgroundFon.jpg');
-  background-repeat: no-repeat;
-}
+
 /* --------Opportunity-------- */
 .opportunity > li:not(:last-child) {
   margin-right: 30px;
@@ -274,6 +273,7 @@ img {
   justify-content: center;
   width: 44px;
   height: 44px;
+  fill: var(--icons-primary-color);
 }
 .Developer:not(:last-child) {
   margin-right: 10px;
@@ -285,14 +285,11 @@ img {
 .icon-our-team {
   width: 20px;
   height: 20px;
-  fill: var(--icons-primary-color);
 }
-.icon-our-team:hover {
-  background-color: #2196f3;
-  fill: var(--primary-body-color);
-}
+
 .icons-list-team:hover {
   background-color: #2196f3;
+  fill: var(--primary-body-color);
   border-radius: 50%;
 }
 /* --------footer---------- */
